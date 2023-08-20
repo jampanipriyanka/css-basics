@@ -1,0 +1,17 @@
+div{
+    color: red;
+    background-color: burlywood;
+}
+@media(max-width:400px){
+    div{
+        color: blue;
+        background-color: aquamarine;
+    }
+}
+
+@media(max-width:600px){
+    div{
+        color: blanchedalmond;
+        background-color: black;
+    }
+}
