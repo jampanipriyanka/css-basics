@@ -1,0 +1,17 @@
+h2{
+    color: red;
+}
+p{
+    color: green;
+}
+section h2{
+    color: blue;
+}
+
+div h2{
+    color: brown;
+}
+
+footer ul li{
+    color: plum;
+}

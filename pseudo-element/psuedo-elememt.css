@@ -1,0 +1,21 @@
+P{
+    color: brown;
+}
+
+p::before{
+    content: "=> ";
+    color: green;
+    font: x-large;
+}
+
+p::before{
+    content: "<= ";
+    color: green;
+    font: x-large;
+}
+
+form div input::placeholder{
+    font-weight: bold;
+    color: red;
+    opacity: 0.5;
+}
