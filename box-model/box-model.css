@@ -1,0 +1,107 @@
+/*
+    padding-top === padding-block-start
+    padding-bottaom === padding-block-end
+    padding-left === padding-inline-start
+    padding-right === padding-inline-end
+*/
+
+
+p#para-border-style-1{
+    width: 80%;
+    color: red;
+    border-top: 3px solid blueviolet;
+    border-left: 3px solid red;
+    border-bottom: 3px solid blueviolet;
+    border-right: 3px solid red;
+
+    /* margin */
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 35px;
+
+    /* padding styles*/
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+p#para-border-style-2{
+    width: 80%;
+    border: 3px solid blue;
+    /* margin */
+    margin: 30px 50px;
+    
+    /* padding styles*/
+    padding: 10px 40px;
+}
+
+p#para-border-style-3{
+    width: 80%;
+    border-width: 5px;
+    border-color: darkmagenta;
+    border-style: dotted;
+    border-top: 3px solid rgb(28, 31, 199);
+    
+    /* margin */
+    margin: 10px 40px 50px 15px;
+
+    /* padding styles*/
+    padding: 30px 50px 10px 25px;
+}
+
+p#para-border-style-4{
+    background-color: rgb(64, 115, 13);
+    height: 200px;
+    width: 200px;
+    /* border-radius: 25%; */
+    border-top-left-radius: 15%;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 5%;
+
+    /* margin */
+
+}
+p#para-border-style-5{
+    background-color: rgb(64, 115, 13);
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+}
+p#para-border-style-6{
+    background-color: rgb(191, 70, 18);
+    height: 200px;
+    width: 500px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 55%;
+}
+p#para-border-style-7{
+    background-color: rgb(51, 198, 224);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    content: "sample text from CSS";
+    color: black;
+    
+}
+p#para-box-sizing{
+    color: green;
+    border: 3px solid hotpink;
+    padding: 20px;
+    margin: 15px;
+    width: 600px;
+}
+
+p#para-box-sizing-1{
+    color: red;
+    border: 3px solid hotpink;
+    padding: 20px;
+    margin: 15px;
+    width: 600px;
+    box-sizing: border-box;
+}
+
