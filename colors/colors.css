@@ -1,3 +1,16 @@
 h1{
     color: red;
 }
+
+#para-color-keyword{
+    color: #0000ff;
+}
+
+#para-color-keyword-1{
+   color:hsl(110, 75%, 51%);
+   background-color: rgb(132, 31, 51);
+}
+
+#para-color-keyword{
+    color: hsla(204, 74%, 41%, 0.5);
+}
